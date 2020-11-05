@@ -1,0 +1,8 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201016 - SPC_SAC\20201016 - SPC_SAC\bin\Debug\20201016 - SPC_SAC.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201016 - SPC_SAC\20201016 - SPC_SAC\bin\Debug\20201016 - SPC_SAC.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201016 - SPC_SAC\20201016 - SPC_SAC\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201016 - SPC_SAC\20201016 - SPC_SAC\obj\Debug\_20201016___SPC_SAC.Form1.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201016 - SPC_SAC\20201016 - SPC_SAC\obj\Debug\_20201016___SPC_SAC.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201016 - SPC_SAC\20201016 - SPC_SAC\obj\Debug\20201016 - SPC_SAC.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201016 - SPC_SAC\20201016 - SPC_SAC\obj\Debug\20201016 - SPC_SAC.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201016 - SPC_SAC\20201016 - SPC_SAC\obj\Debug\20201016 - SPC_SAC.pdb

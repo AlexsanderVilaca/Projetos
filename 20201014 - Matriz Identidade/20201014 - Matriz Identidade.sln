@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20201014 - Matriz Identidade", "20201014 - Matriz Identidade\20201014 - Matriz Identidade.csproj", "{FC162FB6-4E77-4D85-885D-AEB720EEE17A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC162FB6-4E77-4D85-885D-AEB720EEE17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC162FB6-4E77-4D85-885D-AEB720EEE17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC162FB6-4E77-4D85-885D-AEB720EEE17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC162FB6-4E77-4D85-885D-AEB720EEE17A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

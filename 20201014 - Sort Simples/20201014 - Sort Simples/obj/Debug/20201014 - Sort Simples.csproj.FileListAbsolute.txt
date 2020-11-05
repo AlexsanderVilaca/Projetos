@@ -1,0 +1,5 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Sort Simples\20201014 - Sort Simples\bin\Debug\20201014 - Sort Simples.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Sort Simples\20201014 - Sort Simples\bin\Debug\20201014 - Sort Simples.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Sort Simples\20201014 - Sort Simples\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Sort Simples\20201014 - Sort Simples\obj\Debug\20201014 - Sort Simples.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Sort Simples\20201014 - Sort Simples\obj\Debug\20201014 - Sort Simples.pdb

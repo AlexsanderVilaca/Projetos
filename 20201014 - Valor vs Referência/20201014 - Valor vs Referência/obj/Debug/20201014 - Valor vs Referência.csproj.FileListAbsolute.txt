@@ -1,0 +1,5 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Valor vs Referência\20201014 - Valor vs Referência\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Valor vs Referência\20201014 - Valor vs Referência\bin\Debug\20201014 - Valor vs Referência.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Valor vs Referência\20201014 - Valor vs Referência\bin\Debug\20201014 - Valor vs Referência.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Valor vs Referência\20201014 - Valor vs Referência\obj\Debug\20201014 - Valor vs Referência.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Valor vs Referência\20201014 - Valor vs Referência\obj\Debug\20201014 - Valor vs Referência.pdb

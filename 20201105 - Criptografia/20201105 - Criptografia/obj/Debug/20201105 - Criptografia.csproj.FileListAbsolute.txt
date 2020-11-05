@@ -1,0 +1,5 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Criptografia\20201105 - Criptografia\bin\Debug\20201105 - Criptografia.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Criptografia\20201105 - Criptografia\bin\Debug\20201105 - Criptografia.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Criptografia\20201105 - Criptografia\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Criptografia\20201105 - Criptografia\obj\Debug\20201105 - Criptografia.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Criptografia\20201105 - Criptografia\obj\Debug\20201105 - Criptografia.pdb

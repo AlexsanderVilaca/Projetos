@@ -1,0 +1,8 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Soma da String\20201015 - Soma da String\bin\Debug\20201015 - Soma da String.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Soma da String\20201015 - Soma da String\bin\Debug\20201015 - Soma da String.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Soma da String\20201015 - Soma da String\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Soma da String\20201015 - Soma da String\obj\Debug\_20201015___Soma_da_String.Form1.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Soma da String\20201015 - Soma da String\obj\Debug\_20201015___Soma_da_String.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Soma da String\20201015 - Soma da String\obj\Debug\20201015 - Soma da String.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Soma da String\20201015 - Soma da String\obj\Debug\20201015 - Soma da String.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Soma da String\20201015 - Soma da String\obj\Debug\20201015 - Soma da String.pdb

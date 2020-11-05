@@ -1,0 +1,8 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\AlexsanderSolution\20201019 - Cálculo Incerteza\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\AlexsanderSolution\20201019 - Cálculo Incerteza\obj\Debug\_20201019___Cálculo_Incerteza.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\AlexsanderSolution\20201019 - Cálculo Incerteza\obj\Debug\20201019 - Cálculo Incerteza.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\AlexsanderSolution\20201019 - Cálculo Incerteza\bin\Debug\20201019 - Cálculo Incerteza.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\AlexsanderSolution\20201019 - Cálculo Incerteza\bin\Debug\20201019 - Cálculo Incerteza.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\AlexsanderSolution\20201019 - Cálculo Incerteza\obj\Debug\20201019 - Cálculo Incerteza.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\AlexsanderSolution\20201019 - Cálculo Incerteza\obj\Debug\20201019 - Cálculo Incerteza.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\AlexsanderSolution\20201019 - Cálculo Incerteza\obj\Debug\_20201019___Cálculo_Incerteza.Form1.resources

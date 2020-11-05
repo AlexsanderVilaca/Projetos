@@ -1,0 +1,5 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Media Idades\20201013 - Media Idades\bin\Debug\20201013 - Media Idades.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Media Idades\20201013 - Media Idades\bin\Debug\20201013 - Media Idades.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Media Idades\20201013 - Media Idades\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Media Idades\20201013 - Media Idades\obj\Debug\20201013 - Media Idades.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Media Idades\20201013 - Media Idades\obj\Debug\20201013 - Media Idades.pdb

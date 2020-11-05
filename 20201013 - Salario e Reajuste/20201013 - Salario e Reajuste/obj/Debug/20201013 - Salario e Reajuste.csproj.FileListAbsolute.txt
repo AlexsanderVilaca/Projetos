@@ -1,0 +1,5 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Salario e Reajuste\20201013 - Salario e Reajuste\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Salario e Reajuste\20201013 - Salario e Reajuste\bin\Debug\20201013 - Salario e Reajuste.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Salario e Reajuste\20201013 - Salario e Reajuste\bin\Debug\20201013 - Salario e Reajuste.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Salario e Reajuste\20201013 - Salario e Reajuste\obj\Debug\20201013 - Salario e Reajuste.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Salario e Reajuste\20201013 - Salario e Reajuste\obj\Debug\20201013 - Salario e Reajuste.pdb

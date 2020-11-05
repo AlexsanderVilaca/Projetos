@@ -1,0 +1,5 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Matriz Identidade\20201014 - Matriz Identidade\bin\Debug\20201014 - Matriz Identidade.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Matriz Identidade\20201014 - Matriz Identidade\bin\Debug\20201014 - Matriz Identidade.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Matriz Identidade\20201014 - Matriz Identidade\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Matriz Identidade\20201014 - Matriz Identidade\obj\Debug\20201014 - Matriz Identidade.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Matriz Identidade\20201014 - Matriz Identidade\obj\Debug\20201014 - Matriz Identidade.pdb

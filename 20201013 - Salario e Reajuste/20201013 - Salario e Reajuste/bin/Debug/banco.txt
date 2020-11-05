@@ -1,0 +1,10 @@
+Pessoa 1; 250
+Pessoa 2; 500
+Pessoa 3; 1000
+Pessoa 4; 5000
+Pessoa 5; 700
+Pessoa 6; 100
+Pessoa 7; 800
+Pessoa 8; 2500
+Pessoa 9; 1250
+Pessoa 10; 950,75

@@ -1,0 +1,8 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Área Triângulo\20201015 - Área Triângulo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Área Triângulo\20201015 - Área Triângulo\obj\Debug\_20201015___Área_Triângulo.Form1.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Área Triângulo\20201015 - Área Triângulo\obj\Debug\_20201015___Área_Triângulo.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Área Triângulo\20201015 - Área Triângulo\obj\Debug\20201015 - Área Triângulo.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Área Triângulo\20201015 - Área Triângulo\bin\Debug\20201015 - Área Triângulo.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Área Triângulo\20201015 - Área Triângulo\bin\Debug\20201015 - Área Triângulo.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Área Triângulo\20201015 - Área Triângulo\obj\Debug\20201015 - Área Triângulo.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Área Triângulo\20201015 - Área Triângulo\obj\Debug\20201015 - Área Triângulo.pdb

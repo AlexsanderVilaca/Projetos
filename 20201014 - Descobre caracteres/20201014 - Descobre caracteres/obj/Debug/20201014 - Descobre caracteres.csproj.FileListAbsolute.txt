@@ -1,0 +1,8 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Descobre caracteres\20201014 - Descobre caracteres\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Descobre caracteres\20201014 - Descobre caracteres\obj\Debug\_20201014___Descobre_caracteres.Form1.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Descobre caracteres\20201014 - Descobre caracteres\obj\Debug\_20201014___Descobre_caracteres.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Descobre caracteres\20201014 - Descobre caracteres\obj\Debug\20201014 - Descobre caracteres.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Descobre caracteres\20201014 - Descobre caracteres\bin\Debug\20201014 - Descobre caracteres.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Descobre caracteres\20201014 - Descobre caracteres\bin\Debug\20201014 - Descobre caracteres.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Descobre caracteres\20201014 - Descobre caracteres\obj\Debug\20201014 - Descobre caracteres.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201014 - Descobre caracteres\20201014 - Descobre caracteres\obj\Debug\20201014 - Descobre caracteres.pdb

@@ -1,0 +1,8 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Triângulo de Pascal Dinâmico\20201015 - Triângulo de Pascal Dinâmico\bin\Debug\20201015 - Triângulo de Pascal Dinâmico.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Triângulo de Pascal Dinâmico\20201015 - Triângulo de Pascal Dinâmico\bin\Debug\20201015 - Triângulo de Pascal Dinâmico.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Triângulo de Pascal Dinâmico\20201015 - Triângulo de Pascal Dinâmico\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Triângulo de Pascal Dinâmico\20201015 - Triângulo de Pascal Dinâmico\obj\Debug\_20201015___Triângulo_de_Pascal_Dinâmico.Form1.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Triângulo de Pascal Dinâmico\20201015 - Triângulo de Pascal Dinâmico\obj\Debug\_20201015___Triângulo_de_Pascal_Dinâmico.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Triângulo de Pascal Dinâmico\20201015 - Triângulo de Pascal Dinâmico\obj\Debug\20201015 - Triângulo de Pascal Dinâmico.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Triângulo de Pascal Dinâmico\20201015 - Triângulo de Pascal Dinâmico\obj\Debug\20201015 - Triângulo de Pascal Dinâmico.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Triângulo de Pascal Dinâmico\20201015 - Triângulo de Pascal Dinâmico\obj\Debug\20201015 - Triângulo de Pascal Dinâmico.pdb

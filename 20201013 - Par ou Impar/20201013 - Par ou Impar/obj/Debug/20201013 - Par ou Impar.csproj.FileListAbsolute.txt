@@ -1,0 +1,5 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Par ou Impar\20201013 - Par ou Impar\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Par ou Impar\20201013 - Par ou Impar\bin\Debug\20201013 - Par ou Impar.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Par ou Impar\20201013 - Par ou Impar\bin\Debug\20201013 - Par ou Impar.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Par ou Impar\20201013 - Par ou Impar\obj\Debug\20201013 - Par ou Impar.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201013 - Par ou Impar\20201013 - Par ou Impar\obj\Debug\20201013 - Par ou Impar.pdb

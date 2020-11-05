@@ -1,0 +1,8 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Calcula Rendimento\20201015 - Calcula Rendimento\bin\Debug\20201015 - Calcula Rendimento.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Calcula Rendimento\20201015 - Calcula Rendimento\bin\Debug\20201015 - Calcula Rendimento.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Calcula Rendimento\20201015 - Calcula Rendimento\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Calcula Rendimento\20201015 - Calcula Rendimento\obj\Debug\_20201015___Calcula_Rendimento.Form1.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Calcula Rendimento\20201015 - Calcula Rendimento\obj\Debug\_20201015___Calcula_Rendimento.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Calcula Rendimento\20201015 - Calcula Rendimento\obj\Debug\20201015 - Calcula Rendimento.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Calcula Rendimento\20201015 - Calcula Rendimento\obj\Debug\20201015 - Calcula Rendimento.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201015 - Calcula Rendimento\20201015 - Calcula Rendimento\obj\Debug\20201015 - Calcula Rendimento.pdb

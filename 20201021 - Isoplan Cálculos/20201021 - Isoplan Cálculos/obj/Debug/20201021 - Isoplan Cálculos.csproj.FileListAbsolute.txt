@@ -1,0 +1,8 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201021 - Isoplan Cálculos\20201021 - Isoplan Cálculos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201021 - Isoplan Cálculos\20201021 - Isoplan Cálculos\obj\Debug\_20201021___Isoplan_Cálculos.Form1.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201021 - Isoplan Cálculos\20201021 - Isoplan Cálculos\obj\Debug\_20201021___Isoplan_Cálculos.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201021 - Isoplan Cálculos\20201021 - Isoplan Cálculos\obj\Debug\20201021 - Isoplan Cálculos.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201021 - Isoplan Cálculos\20201021 - Isoplan Cálculos\bin\Debug\20201021 - Isoplan Cálculos.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201021 - Isoplan Cálculos\20201021 - Isoplan Cálculos\bin\Debug\20201021 - Isoplan Cálculos.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201021 - Isoplan Cálculos\20201021 - Isoplan Cálculos\obj\Debug\20201021 - Isoplan Cálculos.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201021 - Isoplan Cálculos\20201021 - Isoplan Cálculos\obj\Debug\20201021 - Isoplan Cálculos.pdb
