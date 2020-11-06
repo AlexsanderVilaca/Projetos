@@ -1,0 +1,8 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201106 - Calculadora usando Delegates\20201106 - Calculadora usando Delegates\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201106 - Calculadora usando Delegates\20201106 - Calculadora usando Delegates\obj\Debug\_20201106___Calculadora_usando_Delegates.Form1.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201106 - Calculadora usando Delegates\20201106 - Calculadora usando Delegates\obj\Debug\_20201106___Calculadora_usando_Delegates.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201106 - Calculadora usando Delegates\20201106 - Calculadora usando Delegates\obj\Debug\20201106 - Calculadora usando Delegates.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201106 - Calculadora usando Delegates\20201106 - Calculadora usando Delegates\bin\Debug\20201106 - Calculadora usando Delegates.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201106 - Calculadora usando Delegates\20201106 - Calculadora usando Delegates\bin\Debug\20201106 - Calculadora usando Delegates.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201106 - Calculadora usando Delegates\20201106 - Calculadora usando Delegates\obj\Debug\20201106 - Calculadora usando Delegates.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201106 - Calculadora usando Delegates\20201106 - Calculadora usando Delegates\obj\Debug\20201106 - Calculadora usando Delegates.pdb

@@ -1,0 +1,5 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Threads1\20201105 - Threads1\bin\Debug\20201105 - Threads1.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Threads1\20201105 - Threads1\bin\Debug\20201105 - Threads1.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Threads1\20201105 - Threads1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Threads1\20201105 - Threads1\obj\Debug\20201105 - Threads1.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Threads1\20201105 - Threads1\obj\Debug\20201105 - Threads1.pdb

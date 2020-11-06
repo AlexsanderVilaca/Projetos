@@ -1,0 +1,8 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Threads\20201105 - Threads\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Threads\20201105 - Threads\obj\Debug\_20201105___Threads.Form1.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Threads\20201105 - Threads\obj\Debug\_20201105___Threads.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Threads\20201105 - Threads\obj\Debug\20201105 - Threads.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Threads\20201105 - Threads\bin\Debug\20201105 - Threads.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Threads\20201105 - Threads\bin\Debug\20201105 - Threads.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Threads\20201105 - Threads\obj\Debug\20201105 - Threads.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201105 - Threads\20201105 - Threads\obj\Debug\20201105 - Threads.pdb
