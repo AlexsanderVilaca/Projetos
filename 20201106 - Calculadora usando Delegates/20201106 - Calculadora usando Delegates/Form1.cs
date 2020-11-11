@@ -34,34 +34,70 @@ namespace _20201106___Calculadora_usando_Delegates
 
         private void btnSoma_Click(object sender, EventArgs e)
         {
-            numero1 = double.Parse(txtCaixa1.Text);
-            numero2 = double.Parse(txtCaixa2.Text);
+            try
+            {
+                numero1 = double.Parse(txtCaixa1.Text);
+                numero2 = double.Parse(txtCaixa2.Text);
 
-            txtResultado.Text = Somar(numero1, numero2).ToString();
+                txtResultado.Text = Somar(numero1, numero2).ToString();
+            }
+            catch (Exception mensagem)
+            {
+                MessageBox.Show(mensagem.ToString());
+                btnLimpa.PerformClick();
+                return;
+            }
         }
 
         private void btnSubtrai_Click(object sender, EventArgs e)
         {
-            numero1 = double.Parse(txtCaixa1.Text);
-            numero2 = double.Parse(txtCaixa2.Text);
+            try
+            {
+                numero1 = double.Parse(txtCaixa1.Text);
+                numero2 = double.Parse(txtCaixa2.Text);
 
-            txtResultado.Text = Subtrair(numero1, numero2).ToString();
+                txtResultado.Text = Subtrair(numero1, numero2).ToString();
+            }
+            catch (Exception mensagem)
+            {
+                MessageBox.Show(mensagem.ToString());
+                btnLimpa.PerformClick();
+                return;
+            }
         }
 
         private void btnMultiplica_Click(object sender, EventArgs e)
         {
-            numero1 = double.Parse(txtCaixa1.Text);
-            numero2 = double.Parse(txtCaixa2.Text);
+            try
+            {
+                numero1 = double.Parse(txtCaixa1.Text);
+                numero2 = double.Parse(txtCaixa2.Text);
 
-            txtResultado.Text = Multiplicar(numero1, numero2).ToString();
+                txtResultado.Text = Multiplicar(numero1, numero2).ToString();
+            }
+            catch (Exception mensagem)
+            {
+                MessageBox.Show(mensagem.ToString());
+                btnLimpa.PerformClick();
+                return;
+            }
         }
 
         private void btnDivide_Click(object sender, EventArgs e)
         {
-            numero1 = double.Parse(txtCaixa1.Text);
-            numero2 = double.Parse(txtCaixa2.Text);
+            try
+            {
+                numero1 = double.Parse(txtCaixa1.Text);
+                numero2 = double.Parse(txtCaixa2.Text);
 
-            txtResultado.Text = Dividir(numero1, numero2).ToString();
+                txtResultado.Text = Dividir(numero1, numero2).ToString();
+            }
+            catch (Exception mensagem)
+            {
+                MessageBox.Show(mensagem.ToString());
+                btnLimpa.PerformClick();
+                return;
+            }
         }
 
         private void btnLimpa_Click(object sender, EventArgs e)

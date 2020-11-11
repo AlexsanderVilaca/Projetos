@@ -1,0 +1,5 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Exemplo Lambda-Linq\20201109 - Exemplo Lambda-Linq\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Exemplo Lambda-Linq\20201109 - Exemplo Lambda-Linq\bin\Debug\20201109 - Exemplo Lambda-Linq.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Exemplo Lambda-Linq\20201109 - Exemplo Lambda-Linq\bin\Debug\20201109 - Exemplo Lambda-Linq.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Exemplo Lambda-Linq\20201109 - Exemplo Lambda-Linq\obj\Debug\20201109 - Exemplo Lambda-Linq.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Exemplo Lambda-Linq\20201109 - Exemplo Lambda-Linq\obj\Debug\20201109 - Exemplo Lambda-Linq.pdb

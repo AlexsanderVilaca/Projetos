@@ -1,0 +1,11 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Loja de Celulares\20201109 - Loja de Celulares\bin\Debug\20201109 - Loja de Celulares.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Loja de Celulares\20201109 - Loja de Celulares\bin\Debug\20201109 - Loja de Celulares.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Loja de Celulares\20201109 - Loja de Celulares\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Loja de Celulares\20201109 - Loja de Celulares\obj\Debug\_20201109___Loja_de_Celulares.Form1.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Loja de Celulares\20201109 - Loja de Celulares\obj\Debug\_20201109___Loja_de_Celulares.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Loja de Celulares\20201109 - Loja de Celulares\obj\Debug\20201109 - Loja de Celulares.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Loja de Celulares\20201109 - Loja de Celulares\obj\Debug\20201109 - Loja de Celulares.exe
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Loja de Celulares\20201109 - Loja de Celulares\obj\Debug\20201109 - Loja de Celulares.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Loja de Celulares\20201109 - Loja de Celulares\obj\Debug\_20201109___Loja_de_Celulares.frTelaCadastroAparelho.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Loja de Celulares\20201109 - Loja de Celulares\obj\Debug\_20201109___Loja_de_Celulares.frTelaCadastroVenda.resources
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Loja de Celulares\20201109 - Loja de Celulares\obj\Debug\_20201109___Loja_de_Celulares.ftTelaExibirVendas.resources
