@@ -49,12 +49,8 @@ namespace _20201109___Loja_de_Celulares
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            label2.Visible = true;
             label2.Text = DateTime.Now.ToString("dd/MM/yyyy - HH:mm:ss");
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

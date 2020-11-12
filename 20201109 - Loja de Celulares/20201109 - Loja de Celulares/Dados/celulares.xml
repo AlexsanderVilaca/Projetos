@@ -1,12 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <celulares>
-  <celular codigo="1" marca="Samsung" preco="1" descricao="1" />
-  <celular codigo="1" marca="Nokia" preco="5564" descricao="3123131231" />
-  <celular codigo="9999" marca="Apple" preco="999999" descricao="iphone 20" />
-  <celular codigo="1" marca="Sony" preco="1" descricao="1" />
-  <celular codigo="1" marca="Apple" preco="1" descricao="1" />
-  <celular codigo="1" marca="Nokia" preco="324234" descricao="4324234" />
-  <celular codigo="1" marca="Sony" preco="2" descricao="2" />
-  <celular codigo="1244" marca="Sony" preco="123456789" descricao="teste final teste final teste final" />
-  <celular codigo="9000" marca="BLU" preco="9000" descricao="0009000" />
+  <celular codigo="1" marca="Alcatel" preco="1200" descricao="celular roubado" />
+  <celular codigo="2" marca="Nokia" preco="312312" descricao="312312312" />
 </celulares>

@@ -83,6 +83,7 @@
     <Compile Include="ftTelaExibirVendas.Designer.cs">
       <DependentUpon>ftTelaExibirVendas.cs</DependentUpon>
     </Compile>
+    <Compile Include="FuncoesAuxiliares.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

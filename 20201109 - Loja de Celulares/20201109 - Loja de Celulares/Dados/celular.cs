@@ -5,6 +5,7 @@ using System.Text;
 using System.Xml.Linq;
 using System.Runtime.Serialization;
 using System.Xml;
+using System.IO;
 
 namespace _20201109___Loja_de_Celulares.Dados
 {

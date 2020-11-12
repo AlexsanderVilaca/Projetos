@@ -1,9 +1,2 @@
-1;teste;1;Blackberry
-9999;iphone 20;999999;Apple
-1;1;1;Sony
-1;3123123;2;Sony
-42342342;4423tgvvvvv;234234234;LG
-1244;Sony;123456789;teste final teste final teste final
-9000;BLU;9000;0009000
-1244Sony123456789teste final teste final teste final
-1244Sony123456789teste final teste final teste final
+1;Alcatel;1200;celular roubado
+2;Nokia;312312;312312312

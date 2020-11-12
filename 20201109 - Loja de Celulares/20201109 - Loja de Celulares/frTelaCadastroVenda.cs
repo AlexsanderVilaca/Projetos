@@ -40,7 +40,7 @@ namespace _20201109___Loja_de_Celulares
 
             precoFinal = Convert.ToDouble(cel.Preco) * Convert.ToDouble(quantidade);
 
-            File.AppendAllText(caminho, cel.Codigo.ToString() + ";" + cel.Marca + ";" + cel.Preco + ";" + cel.Descricao + ";" + precoFinal.ToString() + Environment.NewLine);
+            File.AppendAllText(caminho, cel.Codigo.ToString() + ";" + cel.Marca + ";" + cel.Preco + ";" + precoFinal.ToString() + ";" + cel.Descricao + Environment.NewLine);
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -65,12 +65,12 @@ namespace _20201109___Loja_de_Celulares
                 }
             }
             btnVender.Enabled = flagAchou ? true : false;
-
+                
             if (!flagAchou)
             {
-                foreach (Control coisa in this.Controls)
-                    if (coisa.GetType() == typeof(TextBox))
-                        coisa.Text = "";
+                foreach (Control controle in this.Controls)
+                    if (controle.GetType() == typeof(TextBox))
+                        controle.Text = "";
                 MessageBox.Show("Código não encontrado!");
             }
         }

@@ -14,7 +14,6 @@ using System.Web.Script.Serialization;
 
 
 
-
 namespace _20201109___Loja_de_Celulares
 {
     public partial class frTelaCadastroAparelho : Form
@@ -29,6 +28,7 @@ namespace _20201109___Loja_de_Celulares
             int codigo;
             string descricao, marca;
             double preco;
+            bool JaExiste = false;
 
             try
             {
@@ -45,7 +45,15 @@ namespace _20201109___Loja_de_Celulares
             
             string caminhoSemExtensao = @"C:\Users\alexsander.rodrigues\Documents\Projetos C#\20201109 - Loja de Celulares\20201109 - Loja de Celulares\Dados\celulares";
 
-            if (!chkExportarTXT.Checked && !chkExportarXML.Checked && !chkExportarJSON.Checked)
+            if (FuncoesAuxiliares.Buscar(caminhoSemExtensao + ".txt", txtCodigo.Text, 1) != null)
+            {
+                MessageBox.Show("Cadastro já existe");
+                JaExiste = true;
+                return;
+            }
+            
+
+            if (!chkExportarTXT.Checked && !chkExportarXML.Checked && !chkExportarJSON.Checked && !JaExiste)
             {
                 MessageBox.Show("Selecione alguma opção de exportação!");
                 return;
@@ -60,6 +68,8 @@ namespace _20201109___Loja_de_Celulares
                 
                 if (chkExportarJSON.Checked)//salvando em json
                     ExportaJSON(codigo, marca, preco, descricao, caminhoSemExtensao);
+
+                MessageBox.Show("Sucesso");
             }
         }
 
