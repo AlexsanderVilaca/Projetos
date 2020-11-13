@@ -1,0 +1,5 @@
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\CalculosIsoplan\CalculosIsoplan\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\CalculosIsoplan\CalculosIsoplan\bin\Debug\CalculosIsoplan.dll
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\CalculosIsoplan\CalculosIsoplan\bin\Debug\CalculosIsoplan.pdb
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\CalculosIsoplan\CalculosIsoplan\obj\Debug\CalculosIsoplan.dll
+C:\Users\alexsander.rodrigues\Documents\Projetos C#\CalculosIsoplan\CalculosIsoplan\obj\Debug\CalculosIsoplan.pdb

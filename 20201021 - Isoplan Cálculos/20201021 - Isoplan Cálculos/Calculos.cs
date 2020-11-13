@@ -25,11 +25,13 @@ namespace _20201021___Isoplan_Cálculos
 
         public static float[] Moda(float[] vetor)
         {
-            int indice = 0, ctrlVetorContador = 0;
+            int indice = 0, ctrlVetorContador = 0, quantidadeRealNumeros = 0, posicao = 0;
+
+            vetor = Ordena(vetor);
 
             EstruturaModa[] vetorModa = new EstruturaModa[vetor.Length];
 
-            for (int i = 0; i < vetor.Length; i++) 
+            for (int i = 0; i < vetor.Length; i++)
             {
                 vetorModa[ctrlVetorContador].valor = vetor[indice];
                 if (vetor[indice] == vetor[i])
@@ -41,28 +43,19 @@ namespace _20201021___Isoplan_Cálculos
                     indice = i;
                     i--;
                     ctrlVetorContador++;
+                    quantidadeRealNumeros++;
                 }
             }
 
+            Array.Resize(ref vetorModa, quantidadeRealNumeros + 1);
 
-            int posicao = 1;
-            for(int i=0; i<vetorModa.Length; i++)
-                if(vetorModa[i].valor == 0)
-                {
-                    posicao = i;
-                    break;
-                }
-
-            Array.Resize(ref vetorModa, posicao);
-
-
-            float maiorRepeticao = 0;
-            for (int i = 0; i < vetorModa.Length-1; i++)
+            float maiorRepeticao = vetorModa[0].repeticao;
+            for (int i = 0; i < vetorModa.Length; i++)
             {
-                if (vetorModa[i].repeticao > vetorModa[i + 1].repeticao)
+                if (vetorModa[i].repeticao > maiorRepeticao)
                     maiorRepeticao = vetorModa[i].repeticao;
             }
-            
+
             int indiceAux = 0;
             float[] vetorAux = new float[vetorModa.Length];
 
@@ -75,13 +68,7 @@ namespace _20201021___Isoplan_Cálculos
                 }
             }
 
-            for (int i = 0; i < vetorAux.Length; i++)
-                if (vetorAux[i] == 0)
-                {
-                    posicao = i;
-                    break;
-                }
-            Array.Resize(ref vetorAux, posicao);
+            Array.Resize(ref vetorAux, indiceAux);
 
             return vetorAux;
 

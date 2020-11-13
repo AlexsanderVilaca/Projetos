@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace _20201021___Isoplan_Cálculos
+namespace CalculosIsoplan
 {
-    static class Calculos
-    {
+    public static class Class1
+    {                
         public static float Media(this float[] vetor) 
         {
             float soma = Somatorio(vetor);
@@ -25,13 +25,15 @@ namespace _20201021___Isoplan_Cálculos
 
         public static float[] Moda(float[] vetor)
         {
-            int indice = 0, ctrlVetorContador = 0, quantidadeRealNumeros = 0, posicao = 0;
+            if (vetor.Length == 0) return null;
 
-            EstruturaModa[] vetorModa = new EstruturaModa[vetor.Length];
+            int indice = 0, ctrlVetorContador = 0;
 
             vetor = Ordena(vetor);
 
-            for (int i = 0; i < vetor.Length; i++)
+            EstruturaModa[] vetorModa = new EstruturaModa[vetor.Length];
+
+            for (int i = 0; i < vetor.Length; i++) 
             {
                 vetorModa[ctrlVetorContador].valor = vetor[indice];
                 if (vetor[indice] == vetor[i])
@@ -43,11 +45,10 @@ namespace _20201021___Isoplan_Cálculos
                     indice = i;
                     i--;
                     ctrlVetorContador++;
-                    quantidadeRealNumeros++;
                 }
             }
 
-            Array.Resize(ref vetorModa, quantidadeRealNumeros + 1);
+            Array.Resize(ref vetorModa, ctrlVetorContador+1);
 
             float maiorRepeticao = vetorModa[0].repeticao;
             for (int i = 0; i < vetorModa.Length; i++)
@@ -55,7 +56,7 @@ namespace _20201021___Isoplan_Cálculos
                 if (vetorModa[i].repeticao > maiorRepeticao)
                     maiorRepeticao = vetorModa[i].repeticao;
             }
-
+            
             int indiceAux = 0;
             float[] vetorAux = new float[vetorModa.Length];
 
@@ -136,7 +137,7 @@ namespace _20201021___Isoplan_Cálculos
 
         public static double IncertezaA(float[] vetor, int numeroMedidas)
         {
-            double U = Calculos.DesvPad(vetor)/Math.Sqrt(Convert.ToDouble(numeroMedidas));
+            double U = DesvPad(vetor)/Math.Sqrt(Convert.ToDouble(numeroMedidas));
             return U;
         }
 
@@ -173,7 +174,7 @@ namespace _20201021___Isoplan_Cálculos
                 }
             }
 
-            taxa = Calculos.Interpolacao(grauLiberdadeSuperior, grauLiberdadeInferior, listaTStudent[indice], listaTStudent[indice-1]);
+            taxa = Interpolacao(grauLiberdadeSuperior, grauLiberdadeInferior, listaTStudent[indice], listaTStudent[indice-1]);
 
             double K = (taxa*(grausLiberdade - grauLiberdadeInferior)) + listaTStudent[indice-1];
 
