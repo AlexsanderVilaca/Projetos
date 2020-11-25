@@ -1,0 +1,8 @@
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 003_Lacunas\20201125 - 003_Lacunas\bin\Debug\20201125 - 003_Lacunas.exe
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 003_Lacunas\20201125 - 003_Lacunas\bin\Debug\20201125 - 003_Lacunas.pdb
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 003_Lacunas\20201125 - 003_Lacunas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 003_Lacunas\20201125 - 003_Lacunas\obj\Debug\_20201125___003_Lacunas.Form1.resources
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 003_Lacunas\20201125 - 003_Lacunas\obj\Debug\_20201125___003_Lacunas.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 003_Lacunas\20201125 - 003_Lacunas\obj\Debug\20201125 - 003_Lacunas.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 003_Lacunas\20201125 - 003_Lacunas\obj\Debug\20201125 - 003_Lacunas.exe
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 003_Lacunas\20201125 - 003_Lacunas\obj\Debug\20201125 - 003_Lacunas.pdb

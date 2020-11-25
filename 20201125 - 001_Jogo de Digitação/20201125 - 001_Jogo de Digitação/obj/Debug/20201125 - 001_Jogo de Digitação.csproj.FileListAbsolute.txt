@@ -1,0 +1,8 @@
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 001_Jogo de Digitação\20201125 - 001_Jogo de Digitação\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 001_Jogo de Digitação\20201125 - 001_Jogo de Digitação\obj\Debug\_20201125___001_Jogo_de_Digitação.Form1.resources
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 001_Jogo de Digitação\20201125 - 001_Jogo de Digitação\obj\Debug\_20201125___001_Jogo_de_Digitação.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 001_Jogo de Digitação\20201125 - 001_Jogo de Digitação\obj\Debug\20201125 - 001_Jogo de Digitação.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 001_Jogo de Digitação\20201125 - 001_Jogo de Digitação\bin\Debug\20201125 - 001_Jogo de Digitação.exe
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 001_Jogo de Digitação\20201125 - 001_Jogo de Digitação\bin\Debug\20201125 - 001_Jogo de Digitação.pdb
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 001_Jogo de Digitação\20201125 - 001_Jogo de Digitação\obj\Debug\20201125 - 001_Jogo de Digitação.exe
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 001_Jogo de Digitação\20201125 - 001_Jogo de Digitação\obj\Debug\20201125 - 001_Jogo de Digitação.pdb

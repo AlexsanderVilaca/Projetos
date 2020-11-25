@@ -1,0 +1,4 @@
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 004_Piscina\20201125 - 004_Piscina\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 004_Piscina\20201125 - 004_Piscina\obj\Debug\_20201125___004_Piscina.Form1.resources
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 004_Piscina\20201125 - 004_Piscina\obj\Debug\_20201125___004_Piscina.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 004_Piscina\20201125 - 004_Piscina\obj\Debug\20201125 - 004_Piscina.csproj.GenerateResource.Cache

@@ -1,0 +1,8 @@
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 009_Corrida\20201125 - 009_Corrida\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 009_Corrida\20201125 - 009_Corrida\obj\Debug\_20201125___009_Corrida.Form1.resources
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 009_Corrida\20201125 - 009_Corrida\obj\Debug\_20201125___009_Corrida.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 009_Corrida\20201125 - 009_Corrida\obj\Debug\20201125 - 009_Corrida.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 009_Corrida\20201125 - 009_Corrida\bin\Debug\20201125 - 009_Corrida.exe
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 009_Corrida\20201125 - 009_Corrida\bin\Debug\20201125 - 009_Corrida.pdb
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 009_Corrida\20201125 - 009_Corrida\obj\Debug\20201125 - 009_Corrida.exe
+C:\Users\alexsander.rodrigues\Desktop\20201125 - 009_Corrida\20201125 - 009_Corrida\obj\Debug\20201125 - 009_Corrida.pdb
