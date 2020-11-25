@@ -29,7 +29,7 @@ namespace _20201125___009_Corrida
                 return false;
         }
 
-        public void TakeStartingPosition(int y)
+        public void TakeStartingPosition(int posicaoY)
         {
             MyPictureBox.Location = new Point(32, y);
         }
