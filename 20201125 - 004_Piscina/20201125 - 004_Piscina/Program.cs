@@ -11,7 +11,7 @@ namespace _20201125___004_Piscina
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        static void main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

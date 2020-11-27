@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
 
 namespace _20201125___004_Piscina
 {
@@ -21,6 +22,8 @@ namespace _20201125___004_Piscina
 
             while (x < 4)
             {
+                ta[x] = new Triangulo();
+
                 ta[x].height = (x + 1) * 2;
                 ta[x].length = x + 4;
                 ta[x].setArea();
@@ -37,11 +40,13 @@ namespace _20201125___004_Piscina
             ta[2].area = 343;
             results += "y = " + y;
 
+            MessageBox.Show(results + ", t5 area = " + t5.area);
+
         }
 
         void setArea()
         {
-            ta[x].area = (height * length) / 2;
+            area = (height * length) / 2;
         }
     }
 }

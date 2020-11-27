@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Windows.Forms;
-using System.Drawing;
 
 namespace _20201125___009_Corrida
 {
@@ -14,27 +14,52 @@ namespace _20201125___009_Corrida
         public int Cash;
 
         public RadioButton MyRadioButton;
-        public Label MyLabel;
+        public TextBox MyTextBox;
 
-        public void UpdateLabel()
+        public void UpdateLabels()
         {
-            MyLabel.Text = "{0} bets {1} bucks {2} on dog #{3}", Name, MyBet, MyBet;
-            MyRadioButton.Text = Name + " has " + Cash + " bucks";
+            if (MyBet != null)
+            {
+                MyTextBox.Text = MyBet.GetDescription();
+
+                MyRadioButton.Text = Name + " has " + (Cash - MyBet.Amount).ToString() + " bucks";
+            }
+            else
+            {
+                MyTextBox.Text = Name + " hasn't placed a bet";
+                MyRadioButton.Text = Name + " has " + Cash.ToString() + " bucks";
+
+            }
         }
 
-        public void ClearBet()
+        public bool PlaceBet(int amount, Greyhound dog)
         {
+            if (amount <= Cash)
+            {
+                MyBet = new Bet();
+                MyBet.Amount = amount;
+                MyBet.Dog = dog;
+                MyBet.Bettor = this;
+                UpdateLabels();
 
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
-        public bool PlaceBet(int amount, int Dog)
+        public void ClearBelt()
         {
-
+            MyBet = null;
+            UpdateLabels();
         }
 
-        public void Collect(int winner)
+        public void Collect(Greyhound winner)
         {
-
+            if (MyBet != null)
+                Cash += MyBet.PayOut(winner);
         }
     }
 }

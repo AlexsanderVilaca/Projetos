@@ -16,10 +16,5 @@ namespace _20201125___004_Piscina
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            _20201125___004_Piscina.Triangulo.Main();
-        }
     }
 }

@@ -28,15 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.dog1 = new System.Windows.Forms.PictureBox();
+            this.dog2 = new System.Windows.Forms.PictureBox();
+            this.dog3 = new System.Windows.Forms.PictureBox();
+            this.dog4 = new System.Windows.Forms.PictureBox();
+            this.rbJoe = new System.Windows.Forms.RadioButton();
+            this.rbBob = new System.Windows.Forms.RadioButton();
+            this.rbAl = new System.Windows.Forms.RadioButton();
             this.lblApostas = new System.Windows.Forms.Label();
             this.lblAtualApostador = new System.Windows.Forms.Label();
             this.btnApostar = new System.Windows.Forms.Button();
@@ -45,14 +46,15 @@
             this.npNumeroCachorro = new System.Windows.Forms.NumericUpDown();
             this.btnIniciarCorrida = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtApostaJoe = new System.Windows.Forms.TextBox();
-            this.txtApostaBob = new System.Windows.Forms.TextBox();
-            this.txtApostaAl = new System.Windows.Forms.TextBox();
+            this.txtJoe = new System.Windows.Forms.TextBox();
+            this.txtBob = new System.Windows.Forms.TextBox();
+            this.txtAl = new System.Windows.Forms.TextBox();
+            this.timerPasso = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dog1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dog2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dog3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dog4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.npValorAposta)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.npNumeroCachorro)).BeginInit();
             this.SuspendLayout();
@@ -67,81 +69,81 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
+            // dog1
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(32, 25);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(98, 29);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.dog1.Image = ((System.Drawing.Image)(resources.GetObject("dog1.Image")));
+            this.dog1.Location = new System.Drawing.Point(32, 25);
+            this.dog1.Name = "dog1";
+            this.dog1.Size = new System.Drawing.Size(98, 29);
+            this.dog1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.dog1.TabIndex = 1;
+            this.dog1.TabStop = false;
             // 
-            // pictureBox3
+            // dog2
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(30, 89);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(98, 29);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.dog2.Image = ((System.Drawing.Image)(resources.GetObject("dog2.Image")));
+            this.dog2.Location = new System.Drawing.Point(30, 89);
+            this.dog2.Name = "dog2";
+            this.dog2.Size = new System.Drawing.Size(98, 29);
+            this.dog2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.dog2.TabIndex = 2;
+            this.dog2.TabStop = false;
             // 
-            // pictureBox4
+            // dog3
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(32, 163);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(98, 29);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            this.dog3.Image = ((System.Drawing.Image)(resources.GetObject("dog3.Image")));
+            this.dog3.Location = new System.Drawing.Point(32, 163);
+            this.dog3.Name = "dog3";
+            this.dog3.Size = new System.Drawing.Size(98, 29);
+            this.dog3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.dog3.TabIndex = 3;
+            this.dog3.TabStop = false;
             // 
-            // pictureBox5
+            // dog4
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(32, 234);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(98, 29);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
+            this.dog4.Image = ((System.Drawing.Image)(resources.GetObject("dog4.Image")));
+            this.dog4.Location = new System.Drawing.Point(32, 234);
+            this.dog4.Name = "dog4";
+            this.dog4.Size = new System.Drawing.Size(98, 29);
+            this.dog4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.dog4.TabIndex = 4;
+            this.dog4.TabStop = false;
             // 
-            // radioButton1
+            // rbJoe
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(16, 340);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(51, 22);
-            this.radioButton1.TabIndex = 5;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Joe";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbJoe.AutoSize = true;
+            this.rbJoe.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbJoe.Location = new System.Drawing.Point(16, 340);
+            this.rbJoe.Name = "rbJoe";
+            this.rbJoe.Size = new System.Drawing.Size(51, 22);
+            this.rbJoe.TabIndex = 5;
+            this.rbJoe.TabStop = true;
+            this.rbJoe.Text = "Joe";
+            this.rbJoe.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rbBob
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(16, 363);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(53, 22);
-            this.radioButton2.TabIndex = 6;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Bob";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbBob.AutoSize = true;
+            this.rbBob.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbBob.Location = new System.Drawing.Point(16, 363);
+            this.rbBob.Name = "rbBob";
+            this.rbBob.Size = new System.Drawing.Size(53, 22);
+            this.rbBob.TabIndex = 6;
+            this.rbBob.TabStop = true;
+            this.rbBob.Text = "Bob";
+            this.rbBob.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rbAl
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(16, 386);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(38, 22);
-            this.radioButton3.TabIndex = 7;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Al";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rbAl.AutoSize = true;
+            this.rbAl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbAl.Location = new System.Drawing.Point(16, 386);
+            this.rbAl.Name = "rbAl";
+            this.rbAl.Size = new System.Drawing.Size(38, 22);
+            this.rbAl.TabIndex = 7;
+            this.rbAl.TabStop = true;
+            this.rbAl.Text = "Al";
+            this.rbAl.UseVisualStyleBackColor = true;
             // 
             // lblApostas
             // 
@@ -172,6 +174,7 @@
             this.btnApostar.TabIndex = 10;
             this.btnApostar.Text = "Bets";
             this.btnApostar.UseVisualStyleBackColor = true;
+            this.btnApostar.Click += new System.EventHandler(this.btnApostar_Click);
             // 
             // npValorAposta
             // 
@@ -195,9 +198,24 @@
             // 
             this.npNumeroCachorro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.npNumeroCachorro.Location = new System.Drawing.Point(479, 410);
+            this.npNumeroCachorro.Maximum = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            this.npNumeroCachorro.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.npNumeroCachorro.Name = "npNumeroCachorro";
             this.npNumeroCachorro.Size = new System.Drawing.Size(63, 29);
             this.npNumeroCachorro.TabIndex = 13;
+            this.npNumeroCachorro.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // btnIniciarCorrida
             // 
@@ -208,6 +226,7 @@
             this.btnIniciarCorrida.TabIndex = 14;
             this.btnIniciarCorrida.Text = "Race!";
             this.btnIniciarCorrida.UseVisualStyleBackColor = true;
+            this.btnIniciarCorrida.Click += new System.EventHandler(this.btnIniciarCorrida_Click);
             // 
             // label2
             // 
@@ -219,35 +238,39 @@
             this.label2.TabIndex = 15;
             this.label2.Text = "Bets";
             // 
-            // txtApostaJoe
+            // txtJoe
             // 
-            this.txtApostaJoe.Location = new System.Drawing.Point(557, 312);
-            this.txtApostaJoe.Name = "txtApostaJoe";
-            this.txtApostaJoe.Size = new System.Drawing.Size(198, 20);
-            this.txtApostaJoe.TabIndex = 16;
+            this.txtJoe.Location = new System.Drawing.Point(557, 312);
+            this.txtJoe.Name = "txtJoe";
+            this.txtJoe.Size = new System.Drawing.Size(198, 20);
+            this.txtJoe.TabIndex = 16;
             // 
-            // txtApostaBob
+            // txtBob
             // 
-            this.txtApostaBob.Location = new System.Drawing.Point(557, 338);
-            this.txtApostaBob.Name = "txtApostaBob";
-            this.txtApostaBob.Size = new System.Drawing.Size(198, 20);
-            this.txtApostaBob.TabIndex = 17;
+            this.txtBob.Location = new System.Drawing.Point(557, 338);
+            this.txtBob.Name = "txtBob";
+            this.txtBob.Size = new System.Drawing.Size(198, 20);
+            this.txtBob.TabIndex = 17;
             // 
-            // txtApostaAl
+            // txtAl
             // 
-            this.txtApostaAl.Location = new System.Drawing.Point(557, 364);
-            this.txtApostaAl.Name = "txtApostaAl";
-            this.txtApostaAl.Size = new System.Drawing.Size(198, 20);
-            this.txtApostaAl.TabIndex = 18;
+            this.txtAl.Location = new System.Drawing.Point(557, 364);
+            this.txtAl.Name = "txtAl";
+            this.txtAl.Size = new System.Drawing.Size(198, 20);
+            this.txtAl.TabIndex = 18;
+            // 
+            // timerPasso
+            // 
+            this.timerPasso.Tick += new System.EventHandler(this.timerPasso_Tick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(767, 450);
-            this.Controls.Add(this.txtApostaAl);
-            this.Controls.Add(this.txtApostaBob);
-            this.Controls.Add(this.txtApostaJoe);
+            this.Controls.Add(this.txtAl);
+            this.Controls.Add(this.txtBob);
+            this.Controls.Add(this.txtJoe);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnIniciarCorrida);
             this.Controls.Add(this.npNumeroCachorro);
@@ -256,23 +279,23 @@
             this.Controls.Add(this.btnApostar);
             this.Controls.Add(this.lblAtualApostador);
             this.Controls.Add(this.lblApostas);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.rbAl);
+            this.Controls.Add(this.rbBob);
+            this.Controls.Add(this.rbJoe);
+            this.Controls.Add(this.dog4);
+            this.Controls.Add(this.dog3);
+            this.Controls.Add(this.dog2);
+            this.Controls.Add(this.dog1);
             this.Controls.Add(this.pictureBox1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "A Day at the Races";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dog1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dog2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dog3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dog4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.npValorAposta)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.npNumeroCachorro)).EndInit();
             this.ResumeLayout(false);
@@ -283,13 +306,13 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.PictureBox dog1;
+        private System.Windows.Forms.PictureBox dog2;
+        private System.Windows.Forms.PictureBox dog3;
+        private System.Windows.Forms.PictureBox dog4;
+        private System.Windows.Forms.RadioButton rbJoe;
+        private System.Windows.Forms.RadioButton rbBob;
+        private System.Windows.Forms.RadioButton rbAl;
         private System.Windows.Forms.Label lblApostas;
         private System.Windows.Forms.Label lblAtualApostador;
         private System.Windows.Forms.Button btnApostar;
@@ -298,9 +321,10 @@
         private System.Windows.Forms.NumericUpDown npNumeroCachorro;
         private System.Windows.Forms.Button btnIniciarCorrida;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtApostaJoe;
-        private System.Windows.Forms.TextBox txtApostaBob;
-        private System.Windows.Forms.TextBox txtApostaAl;
+        private System.Windows.Forms.TextBox txtJoe;
+        private System.Windows.Forms.TextBox txtBob;
+        private System.Windows.Forms.TextBox txtAl;
+        private System.Windows.Forms.Timer timerPasso;
     }
 }
 
