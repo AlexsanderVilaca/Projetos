@@ -1,0 +1,5 @@
+C:\Users\alexsander.rodrigues\Desktop\20201208 - Inheritance pg.244\20201208 - Inheritance pg.244\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Desktop\20201208 - Inheritance pg.244\20201208 - Inheritance pg.244\bin\Debug\20201208 - Inheritance pg.244.exe
+C:\Users\alexsander.rodrigues\Desktop\20201208 - Inheritance pg.244\20201208 - Inheritance pg.244\bin\Debug\20201208 - Inheritance pg.244.pdb
+C:\Users\alexsander.rodrigues\Desktop\20201208 - Inheritance pg.244\20201208 - Inheritance pg.244\obj\Debug\20201208 - Inheritance pg.244.exe
+C:\Users\alexsander.rodrigues\Desktop\20201208 - Inheritance pg.244\20201208 - Inheritance pg.244\obj\Debug\20201208 - Inheritance pg.244.pdb

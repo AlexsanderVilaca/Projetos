@@ -17,12 +17,12 @@ namespace _20201127___KathleenEventPlanner_Encapsulamento
         {
             InitializeComponent();
 
-            //criando/instanciando um objeto birthdayParty
+            //instanciando um objeto birthdayParty
             birthdayParty = new BirthdayParty((int)npNumberOfBirthday.Value,
                                                ckbFancyBirthday.Checked,
                                                txtStringName.Text);
 
-            //criando/instanciando um objeto dinnerParty
+            //instanciando um objeto dinnerParty
             dinnerParty = new DinnerParty((int)npNumberOfPeople.Value,
                                            ckbHealthyOption.Checked,
                                            ckbFancyDecorations.Checked);

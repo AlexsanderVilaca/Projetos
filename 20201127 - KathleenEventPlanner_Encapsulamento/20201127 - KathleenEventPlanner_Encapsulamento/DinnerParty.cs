@@ -6,37 +6,18 @@ using System.Windows.Forms;
 
 namespace _20201127___KathleenEventPlanner_Encapsulamento
 {
-    class DinnerParty
+    class DinnerParty : Party
     {
-        public const int CostOfFoodPerPerson = 25;//constante do custo de comida
-
-        private int numberOfPeople;//private indica que a variavel só pode ser acessada de dentro da classe
-        public int NumberOfPeople
-        {
-            get 
-            { 
-                return numberOfPeople;//pode ser lida por qualquer outra classe
-            }
-            set 
-            {
-                numberOfPeople = value;//pode ser alterada por qualquer outra classe
-                CalculateCostOfDecorations(fancyDecorations);//toda vez que a variável for setada haverá a execução do método que calcula o custo das decorações
-            }
-        }
-        
-        private bool fancyDecorations;
-
         public decimal CostOfBeveragesPerPerson;
-        public decimal CostOfDecorations = 0;
-
-        //construtores criam e inicializam objetos
-        //construtores são métodos, e como todo método ele pode ser sobrecarregado
-        public DinnerParty(int numberOfPeople, bool healthlyOption, bool fancyDecorations)//isto é um construtor, obs.:construtores devem receber o mesmo nome da classe
+        
+        /*
+        construtores criam e inicializam objetos
+        obrigatoriamente um construtor deve ter o mesmo nome da classe
+        construtores geralmente são usados para garantir que um objeto seja instanciado com determinados atributos 'setados'
+        construtores são métodos, e como todo método ele pode ser sobrecarregado
+         * */
+        public DinnerParty(int numberOfPeople, bool healthlyOption, bool fancyDecorations) : base(numberOfPeople, fancyDecorations)
         {
-            NumberOfPeople = numberOfPeople;
-            //this serve para informar que a atribuição será na variável da classe e não do parâmetro
-            //Ou seja será a variável da declarada na linha 27 recebe o valor do parametro do construtor
-            this.fancyDecorations = fancyDecorations;
             SetHealthyOption(healthlyOption);
             CalculateCostOfDecorations(fancyDecorations);
         }
@@ -57,19 +38,23 @@ namespace _20201127___KathleenEventPlanner_Encapsulamento
 
         public void CalculateCostOfDecorations(bool fancyOption)
         {
-            fancyDecorations = fancyOption;
             if (fancyOption)
                 CostOfDecorations = (Convert.ToDecimal(NumberOfPeople) * 15.00M) + 50M;
             else
                 CostOfDecorations = (Convert.ToDecimal(NumberOfPeople) * 7.50M) + 30M;
         }
-
+        /* No trecho abaixo temos um problema:
+         * Temos dois métodos com o mesmo nome, mas que não fazem a mesma coisa
+         * para alguém desavisado que for dar manutenção ao código, pode acabar chamando
+         * o método errado e obter um resultado não esperado
+         * */
         public decimal CalculateCost(bool healthyOption)
         {
-            decimal totalCost = CostOfDecorations + ((CostOfBeveragesPerPerson + Convert.ToDecimal(CostOfFoodPerPerson)) * NumberOfPeople);
-
+            //a palavra-chave 'base' é usada para acessar membros da classe base
+            decimal totalCost = base.CalculateCost() + (CostOfBeveragesPerPerson * NumberOfPeople);
+            
             if (healthyOption)
-                return totalCost;
+                return totalCost *= 0.95M;
             else
                 return totalCost;
         }

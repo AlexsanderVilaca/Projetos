@@ -5,16 +5,25 @@ using System.Text;
 
 namespace _20201127___KathleenEventPlanner_Encapsulamento
 {
-    class BirthdayParty
+    class BirthdayParty : Party
     {
-        public const int CostOfFoodPerPearson = 25;
-
-        public decimal CostOfDecorations = 0;
-        public bool fancyDecorations;
         public int CakeSize;
         private string cakeWriting = "";
-        private int numberOfPeople;
 
+        //contrutor da festa de aniversário
+        //usamos a palavra chave base para fazer referencia ao contrutor base 
+        public BirthdayParty(int numberOfPeople, bool fancyOption, string cakeWriting) : base(numberOfPeople, fancyOption)
+        {
+            CalculateCakeSize();
+            this.CakeWriting = cakeWriting;
+            CalculateCostOfDecorations(fancyOption);
+        }
+        /// <summary>
+        /// o get pega o valor que está em cakeWriting
+        /// o set possui a seguinte lógica:
+        /// -se o bolo for de 8", ele comporta no máximo uma inscrição de 16 caracteres
+        /// -senão, ou seja, se ele for de 16", comporta até 40 caracteres
+        /// </summary>
         public string CakeWriting
         {
             get 
@@ -40,28 +49,18 @@ namespace _20201127___KathleenEventPlanner_Encapsulamento
             }
         }
         
-        public int NumberOfPeople
+        public override int NumberOfPeople
         {
             get 
-            { 
-                return numberOfPeople; 
+            {
+                return base.NumberOfPeople;
             }
             set
             {
-                numberOfPeople = value;
-                CalculateCostOfDecorations(fancyDecorations);
+                base.NumberOfPeople = value;
                 CalculateCakeSize();
                 this.CakeWriting = cakeWriting;
             }
-        }
-
-        public BirthdayParty(int numberOfPeople, bool fancyDecorations, string cakeWriting)
-        {
-            this.NumberOfPeople = numberOfPeople;
-            this.fancyDecorations = fancyDecorations;
-            CalculateCakeSize();
-            this.CakeWriting = cakeWriting;
-            CalculateCostOfDecorations(fancyDecorations);
         }
 
         private void CalculateCakeSize()
@@ -72,21 +71,20 @@ namespace _20201127___KathleenEventPlanner_Encapsulamento
                 CakeSize = 16;
         }
 
-        public decimal CalculateCost()
+        public override decimal CalculateCost()
         {
-            decimal TotalCost = CostOfDecorations + (CostOfFoodPerPearson * NumberOfPeople);
             decimal CakeCost;
+
             if (CakeSize == 8)
                 CakeCost = 40M + CakeWriting.Length * 0.25M;
             else
                 CakeCost = 75M + CakeWriting.Length * 0.25M;
 
-            return TotalCost + CakeCost;
+            return base.CalculateCost() + CakeCost;
         }
 
         public void CalculateCostOfDecorations(bool fancyDecorations)
         {
-            this.fancyDecorations = fancyDecorations;
             if (fancyDecorations)
                 CostOfDecorations = (NumberOfPeople * 15.00M) + 50M;
             else
