@@ -69,6 +69,7 @@
             this.btnAssignJob2Bee.TabIndex = 2;
             this.btnAssignJob2Bee.Text = "Assign this job to a bee\r\n\r\n";
             this.btnAssignJob2Bee.UseVisualStyleBackColor = true;
+            this.btnAssignJob2Bee.Click += new System.EventHandler(this.btnAssignJob2Bee_Click);
             // 
             // npNumberOfShifts
             // 
@@ -76,7 +77,6 @@
             this.npNumberOfShifts.Name = "npNumberOfShifts";
             this.npNumberOfShifts.Size = new System.Drawing.Size(56, 20);
             this.npNumberOfShifts.TabIndex = 1;
-            this.npNumberOfShifts.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // cbSelectWorkerBee
             // 
@@ -93,7 +93,6 @@
             this.cbSelectWorkerBee.Name = "cbSelectWorkerBee";
             this.cbSelectWorkerBee.Size = new System.Drawing.Size(199, 21);
             this.cbSelectWorkerBee.TabIndex = 0;
-            this.cbSelectWorkerBee.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // btnNextShift
             // 
@@ -103,6 +102,7 @@
             this.btnNextShift.TabIndex = 1;
             this.btnNextShift.Text = "Work the next shift";
             this.btnNextShift.UseVisualStyleBackColor = true;
+            this.btnNextShift.Click += new System.EventHandler(this.btnNextShift_Click);
             // 
             // txtReport
             // 

@@ -16,7 +16,7 @@ namespace _20201210___Beehive_Management_System
         public Worker(string[] jobsICanDo)
         {
             this.jobsICanDo = jobsICanDo;
-            ShiftsWorked = ShiftsToWork = 0;
+            shiftsWorked = shiftsToWork = 0;
         }
 
         public int ShiftsLeft
@@ -42,25 +42,32 @@ namespace _20201210___Beehive_Management_System
 
         public bool DoThisJob(string job, int shifts)
         {
-            if (String.IsNullOrEmpty(CurrentJob) && (from x in jobsICanDo where x.Equals(job) select x))
-            {
-                CurrentJob = job;
-                return true;
-            }
-            else
+            if(!String.IsNullOrEmpty(CurrentJob))
                 return false;
+
+            foreach (string work in jobsICanDo)
+            {
+                if (work == job)
+                {
+                    CurrentJob = job;
+                    shiftsToWork = shifts;
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         public void WorkOneShift()
         {
             if (ShiftsLeft != 0)
             {
-                ShiftsWorked++;
+                shiftsWorked++;
             }
             else
             {
                 CurrentJob = null;
-                ShiftsWorked = 0;
+                shiftsWorked = 0;
             }
 
         }

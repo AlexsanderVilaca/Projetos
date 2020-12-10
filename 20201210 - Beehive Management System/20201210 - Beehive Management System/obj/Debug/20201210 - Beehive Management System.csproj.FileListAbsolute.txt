@@ -1,0 +1,8 @@
+C:\Users\alexsander.rodrigues\Desktop\20201210 - Beehive Management System\20201210 - Beehive Management System\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexsander.rodrigues\Desktop\20201210 - Beehive Management System\20201210 - Beehive Management System\obj\Debug\_20201210___Beehive_Management_System.Form1.resources
+C:\Users\alexsander.rodrigues\Desktop\20201210 - Beehive Management System\20201210 - Beehive Management System\obj\Debug\_20201210___Beehive_Management_System.Properties.Resources.resources
+C:\Users\alexsander.rodrigues\Desktop\20201210 - Beehive Management System\20201210 - Beehive Management System\obj\Debug\20201210 - Beehive Management System.csproj.GenerateResource.Cache
+C:\Users\alexsander.rodrigues\Desktop\20201210 - Beehive Management System\20201210 - Beehive Management System\bin\Debug\20201210 - Beehive Management System.exe
+C:\Users\alexsander.rodrigues\Desktop\20201210 - Beehive Management System\20201210 - Beehive Management System\bin\Debug\20201210 - Beehive Management System.pdb
+C:\Users\alexsander.rodrigues\Desktop\20201210 - Beehive Management System\20201210 - Beehive Management System\obj\Debug\20201210 - Beehive Management System.exe
+C:\Users\alexsander.rodrigues\Desktop\20201210 - Beehive Management System\20201210 - Beehive Management System\obj\Debug\20201210 - Beehive Management System.pdb
