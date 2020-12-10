@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _20201210___Beehive_Management_System
 {
-    class Worker
+    public class Worker
     {
         public string CurrentJob;
         

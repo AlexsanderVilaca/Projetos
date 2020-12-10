@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _20201210___Beehive_Management_System
 {
-    class Queen
+    public class Queen
     {
         private Worker[] workers;
         private int shiftNumber = 1;
@@ -28,7 +28,7 @@ namespace _20201210___Beehive_Management_System
         public string WorkTheNextShift()
         {
             string texto = null;
-            texto += "Report for shift #" + shiftNumber;
+            texto += "Report for shift #" + shiftNumber + Environment.NewLine;
 
             shiftNumber++;
             /*
@@ -41,7 +41,7 @@ namespace _20201210___Beehive_Management_System
             }
              * */
 
-            for(int i=0; i<5; i++)
+            for(int i=0; i<4; i++)
             {
                 workers[i].WorkOneShift();
 
@@ -51,7 +51,11 @@ namespace _20201210___Beehive_Management_System
                     texto += " is not working";
                 else
                     texto += " is doing " + workers[i].CurrentJob + " for more " + workers[i].ShiftsLeft;
+                texto += Environment.NewLine;
             }
+
+
+            return texto;
             
             
         }
