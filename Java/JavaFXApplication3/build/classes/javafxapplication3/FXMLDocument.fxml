@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="692.0" prefWidth="721.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.FXMLDocumentController">
+   <children>
+      <TabPane layoutY="30.0" prefHeight="637.0" prefWidth="721.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Cadastro Clientes">
+            <content>
+              <AnchorPane centerShape="false" minHeight="0.0" minWidth="0.0" prefHeight="483.0" prefWidth="646.0">
+                     <children>
+                        <TitledPane alignment="TOP_LEFT" animated="false" collapsible="false" contentDisplay="BOTTOM" layoutX="48.0" layoutY="25.0" prefHeight="198.0" prefWidth="629.0" text="Dados Pessoais">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="543.0">
+                                 <children>
+                                    <Label layoutX="14.0" layoutY="78.0" text="Endereço" />
+                                    <VBox fillWidth="false" layoutX="70.0" layoutY="27.0" prefHeight="127.0" prefWidth="404.0" spacing="20.0">
+                                       <children>
+                                          <TextField fx:id="txtNome" alignment="BOTTOM_LEFT" prefHeight="25.0" prefWidth="400.0" />
+                                          <TextField fx:id="txtEndereco" prefHeight="25.0" prefWidth="400.0" />
+                                          <TextField fx:id="txtTelefone" prefHeight="25.0" prefWidth="135.0" />
+                                       </children>
+                                    </VBox>
+                                    <Label alignment="BOTTOM_LEFT" layoutX="28.0" layoutY="32.0" text="Nome" />
+                                    <Label layoutX="18.0" layoutY="123.0" text="Telefone" />
+                                    <Button fx:id="btnCadastrar" layoutX="488.0" layoutY="27.0" mnemonicParsing="false" onAction="#handleEvent" prefHeight="112.0" prefWidth="126.0" text="CADASTRAR" />
+                                 </children>
+                              </AnchorPane>
+                          </content>
+                        </TitledPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Pedidos">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="171.0" prefWidth="575.0" />
+            </content>
+          </Tab>
+            <Tab text="Untitled Tab 2">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="171.0" prefWidth="575.0" />
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
