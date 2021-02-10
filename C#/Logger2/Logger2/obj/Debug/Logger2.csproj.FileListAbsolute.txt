@@ -1,5 +1,0 @@
-C:\Documents and Settings\Administrator\My Documents\Logger2\Logger2\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Administrator\My Documents\Logger2\Logger2\bin\Debug\Logger2.exe
-C:\Documents and Settings\Administrator\My Documents\Logger2\Logger2\bin\Debug\Logger2.pdb
-C:\Documents and Settings\Administrator\My Documents\Logger2\Logger2\obj\Debug\Logger2.exe
-C:\Documents and Settings\Administrator\My Documents\Logger2\Logger2\obj\Debug\Logger2.pdb

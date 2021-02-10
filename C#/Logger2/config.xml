@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<config>
-<pathToSave>C:\Documents and Settings\Administrator\My Documents</pathToSave>
-<extensions>csv-txt</extensions>
-<formatToSave>yyyyMMdd-HH:mm:ss.fff</formatToSave>
-<fileNameFormat>yyyyMMddHHmmssfff-log</fileNameFormat>
-</config>
